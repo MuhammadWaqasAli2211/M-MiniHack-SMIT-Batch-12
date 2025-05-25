@@ -1,0 +1,96 @@
+/* Body background and font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: linear-gradient(135deg, #667eea, #764ba2); */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Wrapper for centering login form */
+  .auth-wrapper {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+  }
+  
+  /* Form container */
+  .auth-form-container {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #ff004f;
+    padding: 20px;
+    text-align: center;
+    /* font-size: 2.2em;
+    font-weight: bold; */
+    border-bottom: 3px solid #ff004f;
+    box-shadow: 0 0 15px #ff004f;
+  }
+  
+  /* Heading style */
+  .auth-heading {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 28px;
+  }
+  
+  /* Input field style */
+  .auth-input {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .auth-input:focus {
+    border-color: #667eea;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+  }
+  
+  /* Button style */
+  .auth-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    background-color: #5a67d8;
+  }
+  
+  /* Login link style */
+  .login-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .login-link span {
+    color: #667eea;
+    text-decoration: underline;
+  }
+  
+  .login-link:hover span {
+    color: #5a67d8;
+  }
+  

@@ -1,0 +1,82 @@
+.admin-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(0, 243, 252);
+  height: 80px;
+  padding: 0 20px;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 65px;
+}
+
+.dashboard-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  flex: 1;
+  font-family: "Open Sans", sans-serif;
+}
+
+.logout-btn button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 8px;
+  border-bottom: 3px solid gainsboro;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logout-btn button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  transform: translateY(2px);
+  border-bottom-width: 2px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .user-header {
+    padding: 10px 15px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .dashboard-title {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .logout-btn button {
+    padding: 8px 16px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .dashboard-title {
+    font-size: 18px;
+  }
+
+  .logout-btn button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}

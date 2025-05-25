@@ -1,0 +1,67 @@
+/* CreateEvent.css */
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container select {
+    width: 100%;
+    padding: 10px 12px;
+    /* margin-bottom: 20px; */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="file"] {
+    padding: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: green;
+}
+.error {
+    color: red;
+    font-size: 0.85rem;
+    /* margin-bottom: 8px; */
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        margin: 20px;
+        padding: 20px;
+    }
+}

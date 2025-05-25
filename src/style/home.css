@@ -1,0 +1,59 @@
+/* home.css */
+
+  /* Ensure header is fixed at the top */
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps header above other content */
+    background-color: #0066ff; /* Add any color or theme */
+  }
+  
+  .home-container {
+    padding-top: 20px; /* Space for the fixed header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 150px;
+    /* background: #f4f4f4; */
+    /* border: 1px solid #ccc; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff004f;
+    padding: 20px;
+    text-align: center;
+    /* font-size: 2.2em;
+    font-weight: bold; */
+    border-bottom: 3px solid #ff004f;
+    box-shadow: 0 0 15px #ff004f;
+  }
+  
+  .home-container h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .button-group button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #0066ff;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-group button:hover {
+    background-color: #004ecc;
+  }
+  
