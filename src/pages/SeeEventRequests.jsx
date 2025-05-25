@@ -815,7 +815,7 @@ const EventRequests = () => {
 
     // Fetch participants for selected event
     const fetchParticipants = async (eventId) => {
-        const { data, error } = await supabase.from("participants").select("*");
+        const { data, error } = await supabase.from("participants").select("*").eq("event_id", eventId);
         if (!error) {
             setParticipantsList(data);
             setParticipantsModal(true);
